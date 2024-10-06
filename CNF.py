@@ -103,7 +103,8 @@ def read_grammar_from_file(file_path):
 # Función principal
 def main():
     # Leer la gramática desde un archivo porque antes no lo hacía-.
-    file_path = "gramatica2.txt"  
+    file_path = "gramatica2.txt"  #Lo que entendi es que se tenian que estar cada gramatica en un txt distinto por lo que solo habria que cambiar por gramatica.txt o gramatica2.txt
+    
     try:
         grammar_input = read_grammar_from_file(file_path)
     except FileNotFoundError:
